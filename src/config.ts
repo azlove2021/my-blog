@@ -63,7 +63,7 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/demo-avatar.png", // 头像路径：相对于 /src；若以 "/" 开头，则表示相对于 /public
 	name: "执笔绘倾城",
 	bio: "纵此生不过百岁，何必沾染愁滋味！",
-	quote: "恨君不似江楼月，南北东西，南北东西，只有相随无别离。",
+	quote: "梧桐叶上三更雨，滴滴答答是别离",
 	links: [
 		{
 			name: "GitHub",
@@ -75,12 +75,12 @@ export const profileConfig: ProfileConfig = {
 
 // 在这里填写朋友的网站。url 暂时留空时，页脚会显示“待添加”但不会生成无效链接。
 export const friendLinks = [
-	{ name: "朋友站点 1", url: "" },
-	{ name: "朋友站点 2", url: "" },
-	{ name: "朋友站点 3", url: "" },
-	{ name: "朋友站点 4", url: "" },
-	{ name: "朋友站点 5", url: "" },
-	{ name: "朋友站点 6", url: "" },
+	{ name: "Help AI导航", url: "https://www.helpaio.com/transit" },
+	{ name: "凡人修仙传", url: "https://www.bilibili.com/bangumi/play/ep3854803?from_spmid=666.5.banner.1" },
+	{ name: "YouTube", url: "https://www.youtube.com/" },
+	{ name: "TradingView", url: "https://cn.tradingview.com/ideas/" },
+	{ name: "Wallhaven壁纸", url: "https://wallhaven.cc/" },
+	{ name: "定投估值计算机实验室", url: "https://btcdca.me/" },
 ];
 
 export const licenseConfig: LicenseConfig = {
