@@ -61,21 +61,10 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/demo-avatar.png", // 头像路径：相对于 /src；若以 "/" 开头，则表示相对于 /public
-	name: "Lorem Ipsum",
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	name: "执笔绘倾城",
+	bio: "纵此生不过百岁，何必沾染愁滋味！",
+	quote: "恨君不似江楼月，南北东西，南北东西，只有相随无别离。",
 	links: [
-		{
-			name: "X网站",
-			icon: "fa6-brands:twitter", // 可前往 https://icones.js.org/ 查询图标代码
-			// 如果项目尚未包含对应图标集，需要额外安装
-			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://x.com/",
-		},
-		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
-		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
@@ -84,10 +73,20 @@ export const profileConfig: ProfileConfig = {
 	],
 };
 
+// 在这里填写朋友的网站。url 暂时留空时，页脚会显示“待添加”但不会生成无效链接。
+export const friendLinks = [
+	{ name: "朋友站点 1", url: "" },
+	{ name: "朋友站点 2", url: "" },
+	{ name: "朋友站点 3", url: "" },
+	{ name: "朋友站点 4", url: "" },
+	{ name: "朋友站点 5", url: "" },
+	{ name: "朋友站点 6", url: "" },
+];
+
 export const licenseConfig: LicenseConfig = {
 	enable: true,
-	name: "wallhaven",
-	url: "https://wallhaven.cc/",
+	name: "CC BY-NC-SA 4.0",
+	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans",
 };
 
 export const expressiveCodeConfig: ExpressiveCodeConfig = {
