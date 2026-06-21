@@ -10,7 +10,7 @@ import { LinkPreset } from "./types/config";
 export const siteConfig: SiteConfig = {
 	title: "azlove2112",
 	subtitle: "这是执笔绘倾城的第一个博客",
-	lang: "zh-CN", // 网站语言代码，例如 "en"、"zh_CN"、"ja" 等。
+	lang: "zh_CN", // 网站语言代码，例如 "en"、"zh_CN"、"ja" 等。
 	themeColor: {
 		hue: 250, // 默认主题色色相，范围为 0~360；如红色为 0，青色为 200，蓝绿色为 250，粉色为 345
 		fixed: false, // 是否固定主题色，避免访客切换颜色
